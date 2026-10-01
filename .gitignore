@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+results/
+*.egg-info/
+.DS_Store
+__MACOSX/
+.dist/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.evotrace/

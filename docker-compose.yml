@@ -1,0 +1,7 @@
+services:
+  evotrace:
+    build: .
+    volumes:
+      - .:/work
+    entrypoint: ["evotrace"]
+    command: ["analyze", "--input", "/work/examples/homologs.fasta", "--output", "/work/results"]

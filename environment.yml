@@ -1,0 +1,26 @@
+name: evotrace
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - setuptools>=68
+  - wheel
+  - biopython>=1.80
+  - numpy>=1.23
+  - pyyaml>=6.0
+  - pandas
+  - plotly>=5.18
+  - streamlit>=1.30
+  - pytest>=7.4
+  - ruff>=0.3
+  - mypy>=1.8
+  - python-build>=1.0
+  - mafft
+  - iqtree
+  - hmmer
+  - hyphy
+  - paml
+  - blast

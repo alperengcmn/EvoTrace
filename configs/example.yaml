@@ -1,0 +1,18 @@
+input:
+  type: fasta
+  path: ../examples/tp53_mammals.fasta
+alphabet: protein
+max_ambiguity: 0.5
+alignment:
+  aligner: mafft
+  strategy: auto
+  gap_policy: ignore
+phylogeny:
+  tool: nj
+selection:
+  enabled: false
+domains:
+  enabled: false
+structure:
+  enabled: false
+motifs: []
